@@ -8,7 +8,16 @@ version '1.0'
 sourceCompatibility = 1.8
 
 repositories {
+    jcenter()
     mavenCentral()
+    mavenLocal()
+    maven {
+        url "https://mymavenrepo.com/repo/Dw3PQf7ouaoDzyqMPoa5/"
+        credentials {
+            username = "myMavenRepo"
+            password = "Sofka2018"
+        }
+    }
 }
 
 dependencies {
@@ -34,4 +43,6 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
     compile group: 'com.github.javafaker', name: 'javafaker', version: '0.15'
+    compile(group: 'co.com.sofka.test', name: 'FrameworkSofka', version: '2.2.1')
+    //compile fileTree(dir: 'libs', include: '*.jar')}
 }

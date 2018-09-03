@@ -1,21 +1,12 @@
 package com.sofka.automatizacion.steps;
 
 import com.sofka.automatizacion.bussiness.BCOperaciones;
-import com.sofka.automatizacion.dto.DTOOperaciones;
-import com.sofka.automatizacion.files.Data;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class StepsOperaciones {
     BCOperaciones bcOperaciones=new BCOperaciones();
-    Data data=Data.getInstance();
-    DTOOperaciones dtoSuma;
-
-
-
-
-
 
     @Given("^las rutas para leer datos y almacenar resultados de la \"([^\"]*)\"$")
     public void las_rutas_para_leer_datos_y_almacenar_resultados_de_la(String arg1){

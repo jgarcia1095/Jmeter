@@ -11,5 +11,5 @@ import cucumber.api.CucumberOptions;
 )
 
 
-public class TestRunnerOperaciones {
+public class TestRunnerOperacionesSoap {
 }
