@@ -12,4 +12,4 @@ Feature: Registro Exitoso nopCommerce
     Examples:
       |browser|fuente|
       |0|rest|
-      |2|rest|
+     # |0|rest|
